@@ -55,7 +55,6 @@ public class MainActivity extends ActionBarActivity {
         final RectF rectF = new RectF(rect);
 
         paint.setAntiAlias(true);
-        canvas.drawARGB(0, 0, 0, 0);
         paint.setColor(color);
         canvas.drawOval(rectF, paint);
 
